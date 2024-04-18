@@ -9,4 +9,3 @@ navigator.mediaDevices.getUserMedia({ video: true })
     .catch(function(error) {
         console.error('Error accessing camera:', error);
     });
-
